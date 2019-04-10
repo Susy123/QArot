@@ -1,4 +1,4 @@
-# hwyun-ai
+# QArot
 
 ## Project setup
 ```
