@@ -243,6 +243,11 @@ export default {
         }
       });
     }
+  },
+  mounted() {
+    // window.onbeforeunload = e => {
+    //   return '关闭提示';
+    // }
   }
 }
 </script>
@@ -254,8 +259,12 @@ export default {
   }
   body {
     font-family: microsoft yahei;
-    color: #333333;
-    font-size: 12px;
+    color: rgb(51,51,51);
+    font-size: 14px;
+
+  }
+  p{
+    line-height: 24px;
   }
   ::-webkit-scrollbar-track-piece {
     background: transparent;
