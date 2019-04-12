@@ -1,10 +1,10 @@
 import axios from 'axios';
 
-const projectName = 'cn-north-1';
-const userName = 'ifnota';
-const password = 'Huawei@123';
-const projectId = '7ffc84e4cd6349e0a3062c4f6ad4ce64';
-const qabotId = 'cef2a219-6040-4143-98e8-17fa1bb283f4';
+const projectName = 'xxx';
+const userName = 'xxx';
+const password = 'xxx';
+const projectId = 'xxx';
+const qabotId = 'xxx';
 
 export function getToken() {
     const url = '/myhuaweicloud/v3/auth/tokens';
